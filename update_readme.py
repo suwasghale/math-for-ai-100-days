@@ -1,44 +1,41 @@
 import os
-import re
 
 def update_readme():
-    readme_path = 'README.md'
+    # 1. Look at your folders and build the list
+    folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and f.startswith('Day_')])
     
-    # 1. Find all Day_ folders and sort them
-    folders = [f for f in os.listdir('.') if os.path.isdir(f) and f.startswith('Day_')]
-    folders.sort()
-    
-    # 2. Generate the markdown links
-    progress_lines = []
-    for folder in folders:
-        # Extract "001" and "Vectors_and_Tensors" from "Day_001_Vectors_and_Tensors"
-        parts = folder.split('_', 2)
+    lines = []
+    for f in folders:
+        parts = f.split('_', 2)
         if len(parts) >= 3:
             day_num = int(parts[1])
             topic = parts[2].replace('_', ' ')
-            progress_lines.append(f"* **Day {day_num}:** [{topic}](./{folder})")
+            lines.append(f"* **Day {day_num}:** [{topic}](./{f})")
             
-    if not progress_lines:
-        progress_text = "*No days completed yet. Starting soon!*\n"
-    else:
-        progress_text = "\n".join(progress_lines) + "\n"
+    progress_text = "\n".join(lines) if lines else "*No days completed yet.*"
 
-    # 3. Read the current README
-    with open(readme_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+    # 2. Define the ENTIRE README right here in the Python file
+    readme_content = f"""# 100 Days of Math for AI 🧮
 
-    # 4. Replace the content between the tags
-    start_tag = "\n"
-    end_tag = ""
-    
-    pattern = re.compile(f"({start_tag}).*?({end_tag})", re.DOTALL)
-    new_content = pattern.sub(rf"\1{progress_text}\2", content)
+A personal, 100-day rigorous challenge to build the foundational mathematics of Artificial Intelligence and Machine Learning from scratch.
 
-    # 5. Write the updated content back
-    with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write(new_content)
+**The Golden Rule:** No machine learning libraries (`scikit-learn`, `PyTorch`, `TensorFlow`) are allowed. All algorithms are implemented using standard Python and `NumPy` to ensure a deep, mechanical understanding of the theory.
+
+## ⚙️ Tech Stack
+* **Language:** Python
+* **Math/Arrays:** NumPy
+* **Environment:** Jupyter Notebooks (VS Code)
+* **Documentation:** LaTeX + Markdown
+
+## 🚀 Progress Tracker
+{progress_text}
+"""
+
+    # 3. Obliterate the old README and write this fresh one
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write(readme_content)
         
-    print("✅ README.md successfully updated!")
+    print("✅ README.md generated from scratch successfully!")
 
 if __name__ == "__main__":
     update_readme()

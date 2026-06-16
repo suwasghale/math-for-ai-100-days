@@ -3,7 +3,7 @@ import json
 import argparse
 
 def create_notebook_content(day_num, topic):
-    """Generates the JSON structure for a Jupyter Notebook with the standard template."""
+    """Generates the JSON structure for a Jupyter Notebook with the upgraded template."""
     return {
         "cells": [
             {
@@ -34,14 +34,24 @@ def create_notebook_content(day_num, topic):
                 "cell_type": "markdown",
                 "metadata": {},
                 "source": [
-                    "## 3. Algorithmic Strategy\n",
+                    "## 3. Real-World & AI Applications\n",
+                    "> **Business Logic:** *(e.g., Calculating total daily revenue from dairy inventory quantities and unit prices across multiple locations.)*\n",
+                    ">\n",
+                    "> **AI/ML Use Case:** *(e.g., The core computation inside a neural network perceptron.)*"
+                ]
+            },
+            {
+                "cell_type": "markdown",
+                "metadata": {},
+                "source": [
+                    "## 4. Algorithmic Strategy\n",
                     "> *(Bullet points explaining how you will translate the math into arrays and loops)*"
                 ]
             },
             {
                 "cell_type": "markdown",
                 "metadata": {},
-                "source": ["## 4. Implementation"]
+                "source": ["## 5. Implementation"]
             },
             {
                 "cell_type": "code",
@@ -57,7 +67,7 @@ def create_notebook_content(day_num, topic):
             {
                 "cell_type": "markdown",
                 "metadata": {},
-                "source": ["## 5. Verification"]
+                "source": ["## 6. Verification"]
             },
             {
                 "cell_type": "code",
@@ -68,13 +78,22 @@ def create_notebook_content(day_num, topic):
                     "# Write a small test block proving your scratch code works\n",
                     "# Compare it against a known mathematical outcome if possible\n"
                 ]
+            },
+            {
+                "cell_type": "markdown",
+                "metadata": {},
+                "source": [
+                    "## 7. Complexity Analysis\n",
+                    "- **Time Complexity:** `O(...)` *(Explain why)*\n",
+                    "- **Space Complexity:** `O(...)` *(Explain why)*"
+                ]
             }
         ],
         "metadata": {},
         "nbformat": 4,
         "nbformat_minor": 4
     }
-
+    
 def main():
     parser = argparse.ArgumentParser(description="Scaffold a new day for the 100 Days of Math for AI challenge.")
     parser.add_argument("day", type=int, help="The day number (e.g., 4)")

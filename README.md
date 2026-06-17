@@ -11,6 +11,8 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Documentation:** LaTeX + Markdown
 
 ## 🚀 Progress Tracker
+### Phase 1: Vectors & The Geometry of Data (Days 1–7)
+*Focus: How AI represents and measures individual data points in high-dimensional space.*
 * **Day 1:** [Vectors and Tensors](./Day_001_Vectors_and_Tensors)
 * **Day 2:** [Dot Product](./Day_002_Dot_Product)
 * **Day 3:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)

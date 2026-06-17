@@ -16,14 +16,12 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 
 ### 🏛️ Pillar 1: Linear Algebra (Days 1–30)
 #### Phase 1: Vectors & The Geometry of Data (Days 1–7)
-* **Day 001:** [Vectors and Tensors](./Day_001_Vectors_and_Tensors)
+* **Day 001:** [Fundamental Vector Operations](./Day_001_Fundamental_Vector_Operations)
 * **Day 002:** [Dot Product](./Day_002_Dot_Product)
 * **Day 003:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
-* **Day 004:** [test and demo](./Day_004_test_and_demo)
-* **Day 005:** [testo  and do](./Day_005_testo__and_do)
 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
-* **Day 008:** [sto  and do](./Day_008_sto__and_do)
+*(No topics completed in this phase yet)*
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 *(No topics completed in this phase yet)*

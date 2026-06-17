@@ -10,9 +10,32 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Environment:** Jupyter Notebooks (VS Code)
 * **Documentation:** LaTeX + Markdown
 
+---
+
 ## 🚀 Progress Tracker
-### Phase 1: Vectors & The Geometry of Data (Days 1–7)
-*Focus: How AI represents and measures individual data points in high-dimensional space.*
-* **Day 1:** [Vectors and Tensors](./Day_001_Vectors_and_Tensors)
-* **Day 2:** [Dot Product](./Day_002_Dot_Product)
-* **Day 3:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
+
+### 🏛️ Pillar 1: Linear Algebra (Days 1–30)
+#### Phase 1: Vectors & The Geometry of Data (Days 1–7)
+* **Day 001:** [Vectors and Tensors](./Day_001_Vectors_and_Tensors)
+* **Day 002:** [Dot Product](./Day_002_Dot_Product)
+* **Day 003:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
+* **Day 004:** [test and demo](./Day_004_test_and_demo)
+* **Day 005:** [testo  and do](./Day_005_testo__and_do)
+
+#### Phase 2: Matrices & Neural Network Computations (Days 8–14)
+* **Day 008:** [sto  and do](./Day_008_sto__and_do)
+
+#### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
+*(No topics completed in this phase yet)*
+
+#### Phase 4: Advanced AI Algebra & Decompositions (Days 22–30)
+*(No topics completed in this phase yet)*
+
+### 🏛️ Pillar 2: Multivariate Calculus (Days 31–55)
+*(Topics will unlock when we reach this pillar...)*
+
+### 🏛️ Pillar 3: Probability & Statistics (Days 56–85)
+*(Topics will unlock when we reach this pillar...)*
+
+### 🏛️ Pillar 4: Optimization & Core ML Math (Days 86–100)
+*(Topics will unlock when we reach this pillar...)*

@@ -19,6 +19,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 001:** [Fundamental Vector Operations](./Day_001_Fundamental_Vector_Operations)
 * **Day 002:** [Dot Product](./Day_002_Dot_Product)
 * **Day 003:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
+* **Day 004:** [Distance Metrics (L1 and L2 Norms)](./Day_004_Distance_Metrics_(L1_and_L2_Norms))
 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
 *(No topics completed in this phase yet)*

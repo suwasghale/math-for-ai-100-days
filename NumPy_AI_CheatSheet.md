@@ -1,14 +1,14 @@
-The Ultimate NumPy Cheat Sheet for AI/ML Mathematics
+# The Ultimate NumPy Cheat Sheet for AI/ML Mathematics
 
-Why NumPy for AI?
+## Why NumPy for AI?
 
-Vectorization: It applies math to entire arrays at once, skipping slow Python for loops.
+## *Vectorization: It applies math to entire arrays at once, skipping slow Python for loops.
 
-Broadcasting: It mathematically aligns arrays of different shapes automatically.
+## *Broadcasting: It mathematically aligns arrays of different shapes automatically.
 
-C-Backend: It runs near the speed of C, handling millions of data points instantly.
+## *C-Backend: It runs near the speed of C, handling millions of data points instantly.
 
-1. Array Creation & Tensors (The Foundations)
+# 1. Array Creation & Tensors (The Foundations)
 
 In AI, data (images, text, prices) is converted into N-dimensional arrays (Tensors).
 

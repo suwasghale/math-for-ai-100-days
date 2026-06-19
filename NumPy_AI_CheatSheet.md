@@ -2,11 +2,11 @@
 
 ## Why NumPy for AI?
 
-## *Vectorization: It applies math to entire arrays at once, skipping slow Python for loops.
+### 1. Vectorization: It applies math to entire arrays at once, skipping slow Python for loops.
 
-## *Broadcasting: It mathematically aligns arrays of different shapes automatically.
+### 2. Broadcasting: It mathematically aligns arrays of different shapes automatically.
 
-## *C-Backend: It runs near the speed of C, handling millions of data points instantly.
+### 3. C-Backend: It runs near the speed of C, handling millions of data points instantly.
 
 # 1. Array Creation & Tensors (The Foundations)
 

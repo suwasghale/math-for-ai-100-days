@@ -21,6 +21,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 003:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
 * **Day 004:** [Distance Metrics (L1 and L2 Norms)](./Day_004_Distance_Metrics_(L1_and_L2_Norms))
 * **Day 005:** [Linear Combinations & Span](./Day_005_Linear_Combinations_&_Span)
+* **Day 006:** [Linear Independence & Dependence](./Day_006_Linear_Independence_&_Dependence)
 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
 *(No topics completed in this phase yet)*

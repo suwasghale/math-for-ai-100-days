@@ -1,4 +1,18 @@
-The Ultimate NumPy Cheat Sheet for AI/ML MathematicsWhy NumPy for AI?Vectorization: It applies math to entire arrays at once, skipping slow Python for loops.Broadcasting: It mathematically aligns arrays of different shapes automatically.C-Backend: It runs near the speed of C, handling millions of data points instantly.1. Array Creation & Tensors (The Foundations)In AI, data (images, text, prices) is converted into N-dimensional arrays (Tensors).import numpy as np
+# The Ultimate NumPy Cheat Sheet for AI/ML Mathematics
+
+## Why NumPy for AI?
+
+ **i. Vectorization:** It applies math to entire arrays at once, skipping slow Python for loops.
+
+**ii. Broadcasting:** It mathematically aligns arrays of different shapes automatically.
+
+**iii. C-Backend:** It runs near the speed of C, handling millions of data points instantly.
+
+#### 1. Array Creation & Tensors (The Foundations)
+
+In *AI, data (images, text, prices)* is converted into *N-dimensional arrays (Tensors)*.
+```python 
+import numpy as np
 
 # 1D Array (Vector) - e.g., A single house's features
 v = np.array([1, 2, 3]) 
@@ -13,7 +27,13 @@ ones = np.ones((2, 4))     # 2x4 matrix of 1s
 # Sequences - Great for creating X-axes for plotting graphs
 x = np.linspace(0, 10, 100)  # 100 evenly spaced numbers from 0 to 10
 steps = np.arange(0, 10, 2)  # [0, 2, 4, 6, 8]
-2. Shape, Reshaping, & DimensionalityNeural networks are extremely strict about data shapes. You will use these constantly to fix "Shape Mismatch" errors.# Check dimensions
+```
+
+#### 2. Shape, Reshaping, & Dimensionality
+
+Neural networks are extremely strict about data shapes. You will use these constantly to fix "Shape Mismatch" errors.
+```python
+# Check dimensions
 print(M.shape)  # Returns (3, 3)
 
 # Reshape data (Crucial for feeding images into neural networks)
@@ -26,7 +46,13 @@ v_batch = np.expand_dims(v, axis=0)  # Changes shape from (3,) to (1, 3)
 
 # Transpose (Flipping rows to columns - crucial for Dot Products)
 M_T = M.T  
-3. Linear Algebra (Days 1–30)The geometric engine of Machine Learning.A = np.array([1, 2])
+```
+
+#### 3. Linear Algebra (Days 1–30)
+
+The geometric engine of Machine Learning.
+```python
+A = np.array([1, 2])
 B = np.array([3, 4])
 
 # Element-wise Operations (Day 1)
@@ -43,10 +69,32 @@ length = np.linalg.norm(A)   # sqrt(1^2 + 2^2)
 # Matrix Stacking (Day 5) - Combining vectors into a single matrix
 matrix_A = np.column_stack([A, B]) 
 
+# Outer Product - Comparing every feature of Vector A with every feature of Vector B
+outer = np.outer(A, B) # Results in a 2x2 matrix: [[3, 4], [6, 8]]
+
+# Broadcasting
+# Adding a scalar to a matrix (it automatically "stretches" the scalar)
+result = M + 1
+
 # Advanced Algebra (Upcoming in Phase 2 & 3)
 inverse = np.linalg.inv(matrix_A)          # Matrix Inverse
 eigenvals, eigenvecs = np.linalg.eig(matrix_A) # Eigenvalues/Vectors (PCA)
-4. Probability & Statistics (Days 56–85)How AI handles uncertainty, distributions, and error calculation.data = np.array([10, 20, 30, 40, 50, 100])
+
+# Singular Value Decomposition (SVD) - The "Swiss Army Knife" of data reduction
+U, S, Vt = np.linalg.svd(matrix_A)
+
+# Determinant - Checking if a matrix is invertible
+det = np.linalg.det(matrix_A)
+
+# Trace - Sum of diagonal elements (important for regularization)
+tr = np.trace(matrix_A)
+```
+
+#### 4. Probability & Statistics (Days 56–85)
+
+*How AI handles uncertainty, distributions, and error calculation.*
+```python
+data = np.array([10, 20, 30, 40, 50, 100])
 
 # Core Descriptive Stats
 mean = np.mean(data)      # Average
@@ -62,7 +110,16 @@ pred_idx = np.argmax(data)  # Returns 5 (the index where 100 is located)
 # Randomness (For initializing Neural Network weights randomly)
 rand_uniform = np.random.rand(3, 3)   # Random numbers between 0 and 1
 rand_normal = np.random.randn(3, 3)   # Random numbers from a Gaussian Bell Curve
-5. Calculus & Core ML Functions (Days 31–55, 86–100)The math of Backpropagation and Activation Functions.x = np.array([0.001, 1, 2, 3])
+
+# Trace - Sum of diagonal elements (important for regularization)
+tr = np.trace(M)
+```
+
+#### 5. Calculus & Core ML Functions (Days 31–55, 86–100)
+
+*The math of Backpropagation and Activation Functions.*
+```python
+x = np.array([0.001, 1, 2, 3])
 
 # Exponentials & Logarithms 
 # Crucial for Cross-Entropy Loss and Softmax functions
@@ -76,4 +133,25 @@ dy_dx = np.gradient(exp_x)
 # Clipping (Preventing "Exploding Gradients" in deep learning)
 # Forces all values to stay within a specific min and max range
 safe_x = np.clip(x, a_min=0.5, a_max=2.5) 
-💡 The "Golden Rules" of NumPy for AINever use for loops if you can avoid it. If you are looping through numbers to add them together, you are doing it wrong. Use np.sum() or vector addition A + B.Always check .shape. 90% of bugs in AI/ML engineering are "Shape Mismatch" errors where you try to multiply a (3, 2) matrix by a (4, 1) matrix. Print your shapes constantly!Beware of memory. Doing A = A + B creates a copy in memory. If your arrays are massive (like high-res images), this crashes computers.
+```
+#### 6. Filtering & Boolean Masking
+
+*Filtering data without using slow loops.*
+
+```python
+# Boolean Masking (Filtering without loops)
+data = np.array([1, 5, 2, 8, 3])
+mask = data > 4            # [False, True, False, True, False]
+filtered_data = data[mask] # [5, 8]
+
+# Where Clause - Conditional replacement
+# Replace all values < 0 with 0 (a simplified ReLU activation)
+relu_data = np.where(data < 0, 0, data)
+```
+**💡 The "Golden Rules" of NumPy for AI**
+
+1. **Never use for `loops` if you can avoid it.** If you are looping through numbers to add them together, you are doing it wrong. Use `np.sum()` or vector addition `A + B`.
+
+2. **Always check `.shape`**. 90% of bugs in AI/ML engineering are "Shape Mismatch" errors where you try to multiply a `(3, 2)` matrix by a `(4, 1)` matrix. Print your shapes constantly!
+
+3. **Beware of memory.** Doing `A = A + B` creates a copy in memory. If your arrays are massive (like high-res images), this crashes computers.

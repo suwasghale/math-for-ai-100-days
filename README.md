@@ -22,6 +22,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 004:** [Distance Metrics (L1 and L2 Norms)](./Day_004_Distance_Metrics_(L1_and_L2_Norms))
 * **Day 005:** [Linear Combinations & Span](./Day_005_Linear_Combinations_&_Span)
 * **Day 006:** [Linear Independence & Dependence](./Day_006_Linear_Independence_&_Dependence)
+* **Day 007:** [Basis Vectors & Vector Spaces (The coordinate system of AI)](./Day_007_Basis_Vectors_&_Vector_Spaces_(The_coordinate_system_of_AI))
 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
 *(No topics completed in this phase yet)*

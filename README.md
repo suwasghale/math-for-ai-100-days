@@ -25,7 +25,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 007:** [Basis Vectors & Vector Spaces (The coordinate system of AI)](./Day_007_Basis_Vectors_&_Vector_Spaces_(The_coordinate_system_of_AI))
 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
-*(No topics completed in this phase yet)*
+* **Day 008:** [Introduction to Matrices (Shapes, Tensors, and Image Representation)](./Day_008_Introduction_to_Matrices_(Shapes,_Tensors,_and_Image_Representation))
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 *(No topics completed in this phase yet)*

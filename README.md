@@ -27,6 +27,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 #### Phase 2: Matrices & Neural Network Computations (Days 8–14)
 * **Day 008:** [Introduction to Matrices (Shapes, Tensors, and Image Representation)](./Day_008_Introduction_to_Matrices_(Shapes,_Tensors,_and_Image_Representation))
 * **Day 009:** [Matrix Addition, Scalar Multiplication and Broadcasting](./Day_009_Matrix_Addition,_Scalar_Multiplication_and_Broadcasting)
+* **Day 010:** [Matrix-Vector Multiplication](./Day_010_Matrix-Vector_Multiplication)
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 *(No topics completed in this phase yet)*

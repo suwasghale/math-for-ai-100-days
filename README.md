@@ -29,6 +29,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 009:** [Matrix Addition, Scalar Multiplication and Broadcasting](./Day_009_Matrix_Addition,_Scalar_Multiplication_and_Broadcasting)
 * **Day 010:** [Matrix-Vector Multiplication](./Day_010_Matrix-Vector_Multiplication)
 * **Day 011:** [Matrix-Matrix Multiplication (Combining transformations   Forward passes)](./Day_011_Matrix-Matrix_Multiplication_(Combining_transformations___Forward_passes))
+* **Day 012:** [The Transpose and The Identity Matrix](./Day_012_The_Transpose_and_The_Identity_Matrix)
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 *(No topics completed in this phase yet)*

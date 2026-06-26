@@ -31,6 +31,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 011:** [Matrix-Matrix Multiplication (Combining transformations   Forward passes)](./Day_011_Matrix-Matrix_Multiplication_(Combining_transformations___Forward_passes))
 * **Day 012:** [The Transpose and The Identity Matrix](./Day_012_The_Transpose_and_The_Identity_Matrix)
 * **Day 013:** [Matrix Inverse & Singular Matrices](./Day_013_Matrix_Inverse_&_Singular_Matrices)
+* **Day 014:** [Solving Systems of Linear Equations (Finding the unknown algebraically)](./Day_014_Solving_Systems_of_Linear_Equations_(Finding_the_unknown_algebraically))
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 *(No topics completed in this phase yet)*

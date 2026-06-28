@@ -34,7 +34,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 014:** [Solving Systems of Linear Equations (Finding the unknown algebraically)](./Day_014_Solving_Systems_of_Linear_Equations_(Finding_the_unknown_algebraically))
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
-*(No topics completed in this phase yet)*
+* **Day 015:** [Linear Transformations (Scaling, Rotation, Shearing)](./Day_015_Linear_Transformations_(Scaling,_Rotation,_Shearing))
 
 #### Phase 4: Advanced AI Algebra & Decompositions (Days 22–30)
 *(No topics completed in this phase yet)*

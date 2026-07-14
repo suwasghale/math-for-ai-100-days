@@ -35,6 +35,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 
 #### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 * **Day 015:** [Linear Transformations (Scaling, Rotation, Shearing)](./Day_015_Linear_Transformations_(Scaling,_Rotation,_Shearing))
+* **Day 016:** [The Determinant (Measuring scaling factors and spatial collapse)](./Day_016_The_Determinant_(Measuring_scaling_factors_and_spatial_collapse))
 
 #### Phase 4: Advanced AI Algebra & Decompositions (Days 22–30)
 *(No topics completed in this phase yet)*

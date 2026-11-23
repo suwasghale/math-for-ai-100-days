@@ -4,6 +4,8 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 
 **The Golden Rule:** No machine learning libraries (`scikit-learn`, `PyTorch`, `TensorFlow`) are allowed. All algorithms are implemented using standard Python and `NumPy` to ensure a deep, mechanical understanding of the theory.
 
+> **📌 Status (Nov 2026):** Days 1–18 complete. The daily challenge is **paused** while I prepare for **L2 Informatique in France** (Sept 2027), working through the French L1 maths curriculum by hand, in French. Progress is logged weekly in [`prepa-L2/`](./prepa-L2). Days 19–30 resume in summer 2027.
+
 ## ⚙️ Tech Stack
 * **Language:** Python
 * **Math/Arrays:** NumPy
@@ -14,8 +16,13 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 
 ## 🚀 Progress Tracker
 
-### 🏛️ Pillar 1: Linear Algebra (Days 1–30)
-#### Phase 1: Vectors & The Geometry of Data (Days 1–7)
+### 🇫🇷 Prépa L2 — French L1 maths, by hand (weekly log)
+* **Semaine 01 :** [Modes de raisonnement](./prepa-L2/Semaine_01_Modes_de_raisonnement)
+
+### 🤖 100 Days of Math for AI (paused at Day 18)
+
+#### 🏛️ Pillar 1: Linear Algebra (Days 1–30)
+##### Phase 1: Vectors & The Geometry of Data (Days 1–7)
 * **Day 001:** [Fundamental Vector Operations](./Day_001_Fundamental_Vector_Operations)
 * **Day 002:** [Dot Product](./Day_002_Dot_Product)
 * **Day 003:** [Vector Magnitude (L2 Norm) & Cosine Similarity](./Day_003_Vector_Magnitude_(L2_Norm)_&_Cosine_Similarity)
@@ -24,7 +31,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 006:** [Linear Independence & Dependence](./Day_006_Linear_Independence_&_Dependence)
 * **Day 007:** [Basis Vectors & Vector Spaces (The coordinate system of AI)](./Day_007_Basis_Vectors_&_Vector_Spaces_(The_coordinate_system_of_AI))
 
-#### Phase 2: Matrices & Neural Network Computations (Days 8–14)
+##### Phase 2: Matrices & Neural Network Computations (Days 8–14)
 * **Day 008:** [Introduction to Matrices (Shapes, Tensors, and Image Representation)](./Day_008_Introduction_to_Matrices_(Shapes,_Tensors,_and_Image_Representation))
 * **Day 009:** [Matrix Addition, Scalar Multiplication and Broadcasting](./Day_009_Matrix_Addition,_Scalar_Multiplication_and_Broadcasting)
 * **Day 010:** [Matrix-Vector Multiplication](./Day_010_Matrix-Vector_Multiplication)
@@ -33,20 +40,20 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 * **Day 013:** [Matrix Inverse & Singular Matrices](./Day_013_Matrix_Inverse_&_Singular_Matrices)
 * **Day 014:** [Solving Systems of Linear Equations (Finding the unknown algebraically)](./Day_014_Solving_Systems_of_Linear_Equations_(Finding_the_unknown_algebraically))
 
-#### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
+##### Phase 3: Linear Transformations & Feature Engineering (Days 15–21)
 * **Day 015:** [Linear Transformations (Scaling, Rotation, Shearing)](./Day_015_Linear_Transformations_(Scaling,_Rotation,_Shearing))
 * **Day 016:** [The Determinant (Measuring scaling factors and spatial collapse)](./Day_016_The_Determinant_(Measuring_scaling_factors_and_spatial_collapse))
 * **Day 017:** [Rank of a Matrix (Measuring true information vs. noise)](./Day_017_Rank_of_a_Matrix_(Measuring_true_information_vs._noise))
 * **Day 018:** [Null Space and Column Space](./Day_018_Null_Space_and_Column_Space)
 
-#### Phase 4: Advanced AI Algebra & Decompositions (Days 22–30)
+##### Phase 4: Advanced AI Algebra & Decompositions (Days 22–30)
 *(No topics completed in this phase yet)*
 
-### 🏛️ Pillar 2: Multivariate Calculus (Days 31–55)
+#### 🏛️ Pillar 2: Multivariate Calculus (Days 31–55)
 *(Topics will unlock when we reach this pillar...)*
 
-### 🏛️ Pillar 3: Probability & Statistics (Days 56–85)
+#### 🏛️ Pillar 3: Probability & Statistics (Days 56–85)
 *(Topics will unlock when we reach this pillar...)*
 
-### 🏛️ Pillar 4: Optimization & Core ML Math (Days 86–100)
+#### 🏛️ Pillar 4: Optimization & Core ML Math (Days 86–100)
 *(Topics will unlock when we reach this pillar...)*

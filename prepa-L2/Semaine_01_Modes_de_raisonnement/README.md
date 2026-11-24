@@ -1,7 +1,7 @@
 # Semaine 01 — Modes de raisonnement
 
 **Dates :** 2026-11-23 → 2026-11-29
-**Source :** Pearson *Mathématiques L1* (Marco & Lazzarini), chapitre Modes de raisonnement (p. xvii)
+**Source :** Exo7 — [ch_logique](https://exo7.emath.fr/cours/ch_logique.pdf) + [fic00002](https://exo7.emath.fr/ficpdf/fic00002.pdf) (voir [SOURCES.md](../SOURCES.md))
 **Temps total :** … h
 
 ---

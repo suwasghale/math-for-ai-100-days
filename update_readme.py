@@ -34,7 +34,7 @@ CURRICULUM = [
 def build_prepa_section():
     """List the weekly French maths-prep logs in prepa-L2/ (folders named Semaine_NN_Topic)."""
     lines = ["### 🇫🇷 Prépa L2 — French L1 maths, by hand (weekly log)",
-             "📅 **Full plan:** [prepa-L2/SYLLABUS.md](./prepa-L2/SYLLABUS.md)", ""]
+             "📅 **Full plan:** [SYLLABUS.md](./prepa-L2/SYLLABUS.md) · 📚 **Sources (Exo7, free):** [SOURCES.md](./prepa-L2/SOURCES.md)", ""]
     weeks = {}
     if os.path.isdir('prepa-L2'):
         for f in os.listdir('prepa-L2'):

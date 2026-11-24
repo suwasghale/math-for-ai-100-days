@@ -1,8 +1,8 @@
 """Create a weekly log for the French L2 maths prep.
 
 Usage:
-    python prepa_week.py 1 "Modes de raisonnement" --chap "Modes de raisonnement"
-    python prepa_week.py 2 "Fonctions et continuité" --chap "2"
+    python prepa_week.py 1 "Modes de raisonnement" --chap "ch_logique + fic00002"
+    python prepa_week.py 2 "Ensembles et applications" --chap "ch_ensembles + fic00003"
 
 Creates prepa-L2/Semaine_01_Modes_de_raisonnement/ with a README.md template
 and an images/ folder for photos of handwritten exercises.
@@ -15,7 +15,7 @@ import re
 TEMPLATE = """# Semaine {week:02d} — {topic}
 
 **Dates :** {start} → {end}
-**Source :** Pearson *Mathématiques L1* (Marco & Lazzarini), chapitre {chap}
+**Source :** Exo7 — {chap} (voir [SOURCES.md](../SOURCES.md))
 **Temps total :** … h
 
 ---
@@ -68,7 +68,7 @@ def main():
     parser = argparse.ArgumentParser(description="Create a weekly prepa-L2 log.")
     parser.add_argument("week", type=int, help="Week number, e.g. 1")
     parser.add_argument("topic", type=str, help='Topic in quotes, e.g. "Modes de raisonnement"')
-    parser.add_argument("--chap", type=str, default="…", help="Pearson chapter number(s)")
+    parser.add_argument("--chap", type=str, default="…", help="Exo7 chapter / fiche, e.g. 'ch_logique + fic00002'")
     args = parser.parse_args()
 
     folder = os.path.join("prepa-L2", f"Semaine_{args.week:02d}_{slug(args.topic)}")

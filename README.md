@@ -17,7 +17,7 @@ A personal, 100-day rigorous challenge to build the foundational mathematics of 
 ## 🚀 Progress Tracker
 
 ### 🇫🇷 Prépa L2 — French L1 maths, by hand (weekly log)
-📅 **Full plan:** [prepa-L2/SYLLABUS.md](./prepa-L2/SYLLABUS.md)
+📅 **Full plan:** [SYLLABUS.md](./prepa-L2/SYLLABUS.md) · 📚 **Sources (Exo7, free):** [SOURCES.md](./prepa-L2/SOURCES.md)
 
 * **Semaine 01 :** [Modes de raisonnement](./prepa-L2/Semaine_01_Modes_de_raisonnement)
 
